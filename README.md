@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="forRDE/icon.png" width="200" height="200" alt="icon" >
   <br>
-  Campo Minado
+  Netflix-Clone
   <br>
 </h1>
 
