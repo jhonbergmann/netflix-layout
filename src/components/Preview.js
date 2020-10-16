@@ -8,38 +8,38 @@ import {
   TouchableOpacity
 } from 'react-native'
 import {
-    widthPercentageToDP as w, 
-    heightPercentageToDP as h
+  widthPercentageToDP as w, 
+  heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
 class Preview extends Component {
   render() {
     return (
       <View>
-          <Text style={styles.title}>
-              Prévias
-          </Text>
-          <ScrollView horizontal={true}>
-              <TouchableOpacity>
-                  <Image style={styles.image}
-                      source={require('../../assets/imgs/preview/Stranger-Things.png')} />
-              </TouchableOpacity>
+        <Text style={styles.title}>
+          Prévias
+        </Text>
+        <ScrollView horizontal={true}>
+          <TouchableOpacity>
+            <Image style={styles.image}
+              source={require('../../assets/imgs/preview/Stranger-Things.png')} />
+          </TouchableOpacity>
 
-              <TouchableOpacity>
-              <Image style={styles.image}
-                  source={require('../../assets/imgs/preview/13-Reasons-Why.png')} />
-              </TouchableOpacity> 
-              
-              <TouchableOpacity>
-              <Image style={styles.image}
-                  source={require('../../assets/imgs/preview/GreyS-Anatomy.png')} />
-              </TouchableOpacity>
+          <TouchableOpacity>
+            <Image style={styles.image}
+              source={require('../../assets/imgs/preview/13-Reasons-Why.png')} />
+          </TouchableOpacity> 
+          
+          <TouchableOpacity>
+            <Image style={styles.image}
+              source={require('../../assets/imgs/preview/GreyS-Anatomy.png')} />
+          </TouchableOpacity>
 
-              <TouchableOpacity>
-              <Image style={styles.image}
-                  source={require('../../assets/imgs/preview/Vikings.png')} />
-              </TouchableOpacity>
-          </ScrollView>
+          <TouchableOpacity>
+            <Image style={styles.image}
+              source={require('../../assets/imgs/preview/Vikings.png')} />
+          </TouchableOpacity>
+        </ScrollView>
       </View>
     )
   }
