@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<p align="center">Netflix Clone Layout</p>
+<p align="center">Clone of Netflix Layout</p>
 
 <br>
 
@@ -13,7 +13,9 @@
   <img src="forRDE/gif.gif" alt="Demo" >
 </p>
 
-## 🛠 Tecnologias
+## 🛠 Technologies
+This project was developed with the following technologies:
+
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
 - [Node](https://nodejs.org/en/)
@@ -21,27 +23,27 @@
 - [react-native-video](https://github.com/react-native-video/react-native-video)
 - [@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
 
-## 📱 Executando 
+## 📱 How To Use 
 
-Para executar o projeto é necessário que você tenha o ambiente React Native configurado, você pode seguir esse [GUIA](https://reactnative.dev/docs/environment-setup) para tal.
+To execute the project it is necessary that you have the React Native environment configured, you can follow this [GUIA](https://reactnative.dev/docs/environment-setup).
 
-Depois de configurar o ambiente, basta fazer o clone do projeto:
+After setting up the environment, just clone the project:
 
 ```sh
-git clone https://github.com/JhonatanBergmann/Netflix-Clone.git
+git clone https://github.com/JhonatanBergmann/Calculator.git
 ```
 
-Entre na pasta do projeto e execute o comando para instalar as dependências do projeto:
+Enter the project folder and run the command to install the project's dependencies:
 
 ```sh
 yarn install
 ```
-ou
+or
 ```sh
 npm install
 ```
 
-Em seguida execute o comando referente a plataforma ao qual deseja executar:
+Then run the command for the platform you want to run on:
 
 Android:
 
@@ -50,5 +52,5 @@ react-native run-android
 ```
 
 <p align="center">
- Feito com 💜 by Jhonatan Bergmann
+ Made with ♥ by Jhonatan Bergmann
 </p>
