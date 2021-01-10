@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   Text,
   StyleSheet,
@@ -9,7 +9,7 @@ import {
   Image
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -36,7 +36,7 @@ class OnTheRise extends Component {
                 source={require('../../assets/imgs/logo/N.png')} />
             </ImageBackground>
           </TouchableOpacity>
-          
+
           <TouchableOpacity>
             <ImageBackground style={styles.image}
               source={require('../../assets/imgs/on-the-rise/Flash.png')}>

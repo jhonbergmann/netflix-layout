@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   Text,
   StyleSheet,
   TouchableOpacity
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 

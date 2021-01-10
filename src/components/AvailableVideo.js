@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   StyleSheet,
   Text,
@@ -7,7 +7,7 @@ import {
 } from 'react-native'
 import Video from 'react-native-video'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -15,40 +15,41 @@ import IconAdd from 'react-native-vector-icons/Ionicons'
 import IconPlay from 'react-native-vector-icons/Entypo'
 
 class AvailableVideo extends Component {
-render() {
-  return (
-    <View>
-      <Text style={styles.title}>
-        Já disponível
+  render() {
+    return (
+      <View>
+        <Text style={styles.title}>
+          Já disponível
       </Text>
-      <Video style={styles.video}
-        resizeMode={'contain'}
-        repeat={true}
-        muted
-        source={require('../../assets/videos/avaliable-video/video.mp4')} 
-      />
-      <View style={{ 
-        flexDirection: 'row', 
-        justifyContent: 'space-between',
-        alignItems: 'center' }}>
-        <TouchableOpacity style={styles.playButton}>
-          <IconPlay 
-            name='controller-play' 
-            size={w('6%')} 
-            color={'#000'} 
-          />
-          <Text style={styles.playBtnText}>Assistir</Text>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.addButton}>
-          <IconAdd style={{ alignSelf: 'center' }} 
-            name='md-add' 
-            size={w('7%')} 
-            color={'#FFF'} 
-          />
-          <Text style={styles.addBtnText}>Minha lista</Text>
-        </TouchableOpacity>
+        <Video style={styles.video}
+          resizeMode={'contain'}
+          repeat={true}
+          muted
+          source={require('../../assets/videos/avaliable-video/video.mp4')}
+        />
+        <View style={{
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'center'
+        }}>
+          <TouchableOpacity style={styles.playButton}>
+            <IconPlay
+              name='controller-play'
+              size={w('6%')}
+              color={'#000'}
+            />
+            <Text style={styles.playBtnText}>Assistir</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.addButton}>
+            <IconAdd style={{ alignSelf: 'center' }}
+              name='md-add'
+              size={w('7%')}
+              color={'#FFF'}
+            />
+            <Text style={styles.addBtnText}>Minha lista</Text>
+          </TouchableOpacity>
+        </View>
       </View>
-    </View>
     )
   }
 }
@@ -93,6 +94,6 @@ var styles = StyleSheet.create({
     fontSize: h('1.8%'),
     color: '#FFF'
   }
-}) 
+})
 
 export default AvailableVideo

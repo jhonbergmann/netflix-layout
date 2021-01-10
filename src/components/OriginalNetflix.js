@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import {  
-    View,
-    Text,
-    StyleSheet,
-    ScrollView,
-    TouchableOpacity,
-    ImageBackground,
-    Image
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  TouchableOpacity,
+  ImageBackground,
+  Image
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -36,7 +36,7 @@ class OriginalNetflix extends Component {
                 source={require('../../assets/imgs/logo/N.png')} />
             </ImageBackground>
           </TouchableOpacity>
-          
+
           <TouchableOpacity>
             <ImageBackground style={styles.image}
               source={require('../../assets/imgs/original-netflix/Lucifer.png')}>
@@ -53,7 +53,7 @@ class OriginalNetflix extends Component {
             </ImageBackground>
           </TouchableOpacity>
         </ScrollView>
-    </View>
+      </View>
     )
   }
 }

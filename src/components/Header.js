@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   Text,
   StyleSheet,
@@ -7,7 +7,7 @@ import {
   Image
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -16,7 +16,7 @@ class Header extends Component {
     return (
       <View style={styles.container}>
         <Image style={styles.logo}
-          source={require('../../assets/imgs/logo/N.png')} 
+          source={require('../../assets/imgs/logo/N.png')}
         />
         <View style={styles.textContainer}>
           <TouchableOpacity>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   Text,
   StyleSheet,
   TouchableOpacity
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -19,37 +19,37 @@ class Buttons extends Component {
     return (
       <View style={styles.container}>
         <TouchableOpacity>
-          <IconAdd style={{ alignSelf: 'center' }} 
-            name='md-add' 
-            size={w('7%')} 
-            color={'#FFF'} 
+          <IconAdd style={{ alignSelf: 'center' }}
+            name='md-add'
+            size={w('7%')}
+            color={'#FFF'}
           />
           <Text style={styles.text}>Minha lista</Text>
         </TouchableOpacity>
-        
+
         <View style={styles.button}>
-          <TouchableOpacity style={{ 
+          <TouchableOpacity style={{
             flexDirection: 'row',
             alignItems: 'center',
             marginTop: h('0.5%')
           }}>
-            <IconPlay 
-              name='controller-play' 
-              size={w('6%')} 
-              color={'#000'} 
+            <IconPlay
+              name='controller-play'
+              size={w('6%')}
+              color={'#000'}
             />
-            <Text style={{ 
-              color: '#000', 
+            <Text style={{
+              color: '#000',
               fontSize: h('1.7%'),
-              fontWeight: 'bold' 
+              fontWeight: 'bold'
             }}>Assistir</Text>
           </TouchableOpacity>
         </View>
 
         <TouchableOpacity>
-          <IconInformation style={{ alignSelf: 'center' }}  
-            name='information-outline' 
-            size={w('7%')} 
+          <IconInformation style={{ alignSelf: 'center' }}
+            name='information-outline'
+            size={w('7%')}
             color={'#FFF'} />
           <Text style={styles.text}>Saiba mais</Text>
         </TouchableOpacity>

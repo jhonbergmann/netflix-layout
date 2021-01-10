@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   Text,
   StyleSheet,
@@ -8,7 +8,7 @@ import {
   TouchableOpacity
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -28,8 +28,8 @@ class Preview extends Component {
           <TouchableOpacity>
             <Image style={styles.image}
               source={require('../../assets/imgs/preview/13-Reasons-Why.png')} />
-          </TouchableOpacity> 
-          
+          </TouchableOpacity>
+
           <TouchableOpacity>
             <Image style={styles.image}
               source={require('../../assets/imgs/preview/GreyS-Anatomy.png')} />

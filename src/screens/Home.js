@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {  
+import {
   View,
   Text,
   ScrollView,
@@ -8,7 +8,7 @@ import {
   Image
 } from 'react-native'
 import {
-  widthPercentageToDP as w, 
+  widthPercentageToDP as w,
   heightPercentageToDP as h
 } from 'react-native-responsive-screen'
 
@@ -24,8 +24,8 @@ class Home extends Component {
   render() {
     return (
       <ScrollView style={styles.container}>
-        <ImageBackground style={styles.bannerImg} 
-            source={require('../../assets/imgs/capa-banner.jpg')}>
+        <ImageBackground style={styles.bannerImg}
+          source={require('../../assets/imgs/capa-banner.jpg')}>
           <Header />
           <View style={styles.titleContainer}>
             <Image style={styles.logo}
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   titleContainer: {
     marginTop: h('45%'),
     flexDirection: 'row',
-    alignSelf: 'center' 
+    alignSelf: 'center'
   },
   logo: {
     width: w('5%'),

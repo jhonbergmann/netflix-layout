@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {
-  StatusBar, 
+  StatusBar,
   View
 } from 'react-native'
 
