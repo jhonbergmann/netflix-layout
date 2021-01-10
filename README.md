@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<p align="center">Clone of Netflix Layout</p>
+<p align="center">Clone Netflix Layout</p>
 
 <p align="center">
   <img src="forRDE/gif.gif" alt="Demo" >
@@ -17,9 +17,12 @@ This project was developed with the following technologies:
 - [React Native](https://facebook.github.io/react-native/)
 - [Javascript](https://devdocs.io/javascript/)
 - [Node](https://nodejs.org/en/)
+<br/>-
 - [react-native-responsive-screen](https://www.npmjs.com/package/react-native-responsive-screen)
 - [react-native-video](https://github.com/react-native-video/react-native-video)
 - [@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)
+
+*Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
 ## 📱 How To Use 
 
