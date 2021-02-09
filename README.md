@@ -1,12 +1,12 @@
 <h1 align="center">
-  <img src="forRDE/icon.png" width="200" height="200" alt="icon" >
+  <img src="readme/icon.png" width="200" height="200" alt="icon" >
   <br>
   Netflix-Clone
   <br>
 </h1>
 
 <p align="center">
-  <img src="forRDE/gif.gif" alt="Demo" >
+  <img src="readme/gif.gif" alt="Demo" >
 </p>
 
 ## 🛠 Technologies
