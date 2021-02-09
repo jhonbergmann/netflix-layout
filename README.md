@@ -5,8 +5,6 @@
   <br>
 </h1>
 
-<p align="center">Clone Netflix Layout</p>
-
 <p align="center">
   <img src="forRDE/gif.gif" alt="Demo" >
 </p>
