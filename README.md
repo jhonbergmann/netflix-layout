@@ -29,7 +29,7 @@ To execute the project it is necessary that you have the React Native environmen
 After setting up the environment, just clone the project:
 
 ```sh
-git clone https://github.com/JhonatanBergmann/netflix-layout-clone.git
+git clone https://github.com/jhonbergmann/netflix-layout-clone.git
 ```
 
 Enter the project folder and run the command to install the project's dependencies:
